@@ -14,11 +14,13 @@ $bold: 700;
 @mixin font-header1 {
     font: $semibold 28px /1.6 $poppins;
     @media (min-width: 700px) { font: $semibold 40px /1.44 $poppins; }
+    @media (min-width: 1440px) { font: $semibold 50px /1.44 $poppins; }
 }
 
 @mixin font-header2 {
     font: $semibold 20px /1.4 $poppins;
     @media (min-width: 1000px) { font: $semibold 28px /1.44 $poppins; }
+    @media (min-width: 1440px) { font: $semibold 32px /1.44 $poppins; }
 }
 
 @mixin font-header3 {

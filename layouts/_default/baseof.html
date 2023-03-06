@@ -1,8 +1,12 @@
 <!DOCTYPE html>
 <html>
     {{- partial "head.html" . -}}
+    {{- block "additional-styles" . }}{{- end }}
     <body>
-        {{- block "background" . }}{{- end }}
+        <div class="spotlights">
+            <div class="spotlight" id="spotlight-top"></div>
+            <div class="spotlight" id="spotlight-bottom"></div>
+        </div>
         {{- partial "header.html" . -}}
         <main>
         {{- block "main" . }}{{- end }}
