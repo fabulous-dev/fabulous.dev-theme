@@ -107,6 +107,10 @@ a {
     }
 
     #spotlight-bottom {
+        left: 0;
+        right: 0;
+        margin-left: auto;
+        margin-right: auto;
         bottom: -240px;
         width: 360px;
         height: 360px;
@@ -132,6 +136,7 @@ header {
             align-items: center;
             @include font-fabulous;
             text-decoration: none;
+            gap: 8px;
 
             img {
                 height: 40px;
@@ -324,6 +329,10 @@ main:has(.not-found) {
         }
 
         #spotlight-bottom {
+            left: 0;
+            right: 0;
+            margin-left: auto;
+            margin-right: auto;
             bottom: -569px;
             width: 700px;
             height: 700px;

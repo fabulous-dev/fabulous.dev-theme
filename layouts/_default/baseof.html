@@ -7,7 +7,12 @@
             <div class="spotlight" id="spotlight-top"></div>
             <div class="spotlight" id="spotlight-bottom"></div>
         </div>
-        {{- partial "header.html" . -}}
+        <header>
+            {{- partial "header.html" . -}}
+            <div class="menu">
+                {{- block "menu" . }}{{- end }}
+            </div>
+        </header>
         <main>
         {{- block "main" . }}{{- end }}
         </main>
